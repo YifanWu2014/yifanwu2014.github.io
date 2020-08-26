@@ -10,13 +10,13 @@
   </url>
   
   <url>
-    <loc>//yifanwu2014.github.io/about/</loc>
+    <loc>//yifanwu2014.github.io/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>//yifanwu2014.github.io/categories/</loc>
+    <loc>//yifanwu2014.github.io/categories.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -29,20 +29,20 @@
   </url>
   
   <url>
-    <loc>//yifanwu2014.github.io/portfolio/</loc>
+    <loc>//yifanwu2014.github.io/portfolio.html</loc>
     <lastmod>2019-05-02T19:47:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>//yifanwu2014.github.io/papers/</loc>
+    <loc>//yifanwu2014.github.io/papers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>//yifanwu2014.github.io/tags/</loc>
+    <loc>//yifanwu2014.github.io/tags.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
