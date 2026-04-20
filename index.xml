@@ -6,17 +6,6 @@
     <description>Recent content in About Me on Yifan Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Yifan Wu</copyright>
-    <lastBuildDate>Thu, 02 May 2019 19:47:09 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sample project</title>
-      <link>/portfolio/sample-project/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>/portfolio/sample-project/</guid>
-      <description>This would be a description of your sample project. You can add any content you&amp;rsquo;d like.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
+    <copyright>© Yifan Wu</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
