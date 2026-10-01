@@ -41,7 +41,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='/images/photo.jpg' alt="Profile Experience" class="rounded-logo">
+        <img src='/images/photo.jpg' alt="Profile About Me" class="rounded-logo">
       </a>
     </div>
     <h2>Yifan Wu</h2>
@@ -50,8 +50,8 @@
       
 
         
-        <p>
-            <a href="/">
+        <p class="is-active">
+            <a href="/" aria-current="page">
                 About Me
             </a>
         </p>
@@ -112,6 +112,11 @@
 <section class="news-box">
 <p><strong>I&rsquo;m on the 2026-2027 academic job market for OR/OM, CS, and Data Science!</strong> <a href="https://www.dropbox.com/scl/fi/azuwyjpv6psrtfb34lo7n/sept2026.pdf?rlkey=ya6wjhewbb85c1ikbtrpkk6lf&amp;st=5ie275o2&amp;dl=0">[CV]</a></p>
 </section>
+<h3 id="more-about-my-research">More about My Research</h3>
+<p>I ask how information from AI should be generated, evaluated, and used. Drawing on <strong>game theory</strong> and <strong>statistical decision theory</strong>, I model data providers and predictive models as strategic information sources, and downstream decision processes as rational decision-makers. This perspective connects the incentives that shape information with its value for decisions.</p>
+<p>One central question is <strong>how AI predictions can support good downstream decisions</strong>. Predictive accuracy alone does not guarantee small decision loss. I develop calibration measures and algorithms that connect prediction quality to downstream decision payoffs. I also study how next-token predictors can support decisions with guarantees in adversarial environments.</p>
+<p>A second question is <strong>how to incentivize the acquisition and reporting of high-quality information</strong>. I design scoring rules that reward strategic data providers for acquiring more informative data. For predictive models, I develop truthful calibration measures so that optimizing an evaluation objective aligns with producing higher-quality predictions. These questions connect mechanism design, prediction evaluation, and learning.</p>
+<p>My theoretical work is complemented by <strong>empirical studies in machine learning and human-AI interaction</strong>. I develop theoretical benchmarks for understanding how people use AI-provided information and study the strategic robustness of text evaluation methods. These collaborations allow me to evaluate theoretical insights in practice, while empirical findings motivate new theoretical questions.</p>
 <section class="news-box news-box--scrollable" data-visible-items="3" tabindex="0" aria-label="News">
 <h3 id="news-and-upcoming-travels">News and Upcoming Travels</h3>
 <p><strong>2026</strong></p>
@@ -174,17 +179,6 @@
   if (document.fonts) document.fonts.ready.then(sizeNewsBox);
 })();
 </script>
-<h3 id="more-about-my-research">More about My Research</h3>
-<p>My research develops theoretical foundations for understanding the trustworthiness of AI systems in decision making. Drawing on ideas from <strong>game theory</strong> and <strong>statistical decision theory</strong>, I study how to evaluate probabilistic predictions, how such predictions support good decisions, and how to design AI systems with provable guarantees.</p>
-<p>Across these questions, I view AI systems through the lens of decision-making under uncertainty. A common theme in my work is to model components of an AI system as rational agents optimizing expected payoffs. This perspective helps characterize optimal decision-making and identify sources of suboptimality in real systems. It applies to predictors, human decision-makers, and downstream decision processes.</p>
-<p>More specifically, my research includes:</p>
-<ul>
-<li><strong>Optimal information elicitation</strong>, designing mechanisms to elicit high-quality information, which provides a theoretical foundation for my broader framework.</li>
-<li><strong>Calibration</strong>, studying when predictive model outputs can be reliably interpreted as probabilities. I focus on the evaluation of miscalibration and how evaluation guides algorithm design.</li>
-<li>Obtaining <strong>provable guarantees</strong> from AI systems, such as strategic robustness and no-regret.</li>
-<li>Theoretical benchmark for <strong>human-computer interaction</strong> and human-AI interaction, aimed at understanding human behavior in algorithm- and AI-assisted decision-making.</li>
-</ul>
-<p>Mathematically, many of these questions are studied using proper scoring rules, a tool for evaluating probabilistic predictions and incentivizing truthful reports. Proper scoring rules are fundamental in game theory, statistical decision theory, and machine learning.</p>
 
 
 
